@@ -24,4 +24,4 @@ elif time_bound == "no":
     reminder += ". Consider completing it when you have free time."
 
 # Final output
-print(reminder)
+print(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!.")
